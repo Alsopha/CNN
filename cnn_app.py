@@ -30,7 +30,7 @@ st.write("""
 
 st.write("This is a simple image classification web app to predict letter")
 
-file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
+file = st.file_uploader("Please upload an image file", type=["jpg", "png","jpeg"])
 #
 if file is None:
     st.text("You haven't uploaded an image file(jpg or png)")
